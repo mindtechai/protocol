@@ -25,4 +25,8 @@ cargo build --release
 # 4. Submit PoP (example)
 pallet_pop::submit_pop(player: "0x123", entropy: 25)pallets/pop/        → PoP pallet (Rust)
 runtime/            → Substrate runtime + TT minting
-scripts/deploy.sh   → Kusama collator deployment
+scripts/deploy.sh   → Kusama collator deployment---
+© 2025 Gamverse Labs OÜ. All rights reserved.  
+Code licensed under MIT. Concepts protected by prior art.---
+© 2025 Gamverse Labs OÜ.  
+**Concepts (PoP, UGID, TT) protected by prior art — Nov 11, 2025.**
