@@ -22,8 +22,12 @@ cargo build --release
 # 3. Run local
 ./target/release/node-template --dev
 
-# 4. Submit PoP (example)
-pallet_pop::submit_pop(player: "0x123", entropy: 25)pallets/pop/        → PoP pallet (Rust)
+# 4. Submit PoP (example)## Web2 Layer (Separate)
+- Frontend: [gamverse/frontend](https://github.com/gamverse/frontend)
+- API: [gamverse/api](https://github.com/gamverse/api)
+
+> **Web2 frontends drive adoption. Web3 stays pure.**
+pallet_pop::submit_pop(player: "0x123", entropy: 25)pallets/pop/        → PoP pallet (Rust)  
 runtime/            → Substrate runtime + TT minting
 scripts/deploy.sh   → Kusama collator deployment---
 © 2025 Gamverse Labs OÜ. All rights reserved.  
